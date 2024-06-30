@@ -35,13 +35,12 @@ import Js4 from "../images/js4.png";
 import Js5 from "../images/js5.png";
 import Js6 from "../images/js6.png";
 import Js7 from "../images/js7.png";
+import Js8 from "../images/js8.png";
+
 import Rj1 from "../images/rj1.png";
 import Rj2 from "../images/rj2.png";
 import Rj3 from "../images/rj3.png";
-
-
-
-
+import Rj4 from "../images/rj4.png";
 
 
 
@@ -471,6 +470,23 @@ export const projects = [
     github: "https://github.com/mkabdulazees56/Vanilla-JS-Projects",
     webapp: "https://github.com/mkabdulazees56/Vanilla-JS-Projects",
   },
+  {
+    id: 14,
+    title: "Porfolio",
+    //date: "15th July 2021 - 20th July 2021",
+    description:
+      "Showcase your work with our sleek and responsive JavaScript portfolio website. Designed to highlight your skills and projects across all devices, this platform offers an engaging user experience with smooth navigation and interactive features. Whether on desktop or mobile, visitors can explore your portfolio with ease, appreciating the aesthetics and functionality that set your work apart. Elevate your professional presence with a modern and dynamic portfolio that captures your unique talents.",
+    image:Js8,
+      
+    tags: [
+      "JavaScript",
+      "CSS",
+      "HTML",
+    ],
+    category: "JavaScript",
+    github: "https://github.com/mkabdulazees56/My-Portfoloio-Website",
+    webapp: "https://mkabdulazees.netlify.app/",
+  },
                                           //React Projects
   {
     id: 11,
@@ -504,7 +520,7 @@ export const projects = [
       "CSS",
       "HTML",
       "ReactJs",
-      "Firebase"
+      "Tailwind CSS"
     ],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/hoobank-ReactJs",
@@ -515,7 +531,7 @@ export const projects = [
     title: "MK Traders",
     //date: "15th July 2021 - 20th July 2021",
     description:
-      "Discover your dream home with our responsive ReactJS real estate website. Designed to provide a seamless browsing experience across all devices, our platform offers intuitive navigation and stunning visuals that showcase properties in their best light. Whether you're buying, selling, or renting, our website ensures easy access to detailed property listings, neighborhood insights, and personalized search options. With a user-friendly interface and robust performance, finding the perfect property is simpler than ever. Explore our ReactJS real estate website and embark on your next real estate journey with confidence.",
+      "Explore our ReactJS website designed for an import/export company, optimized for a seamless experience across all devices. Our responsive platform provides easy access to comprehensive services, showcasing product catalogs and logistical solutions. With an intuitive interface, users can navigate effortlessly through offerings, ensuring a smooth experience whether on desktop or mobile. Stay informed with real-time updates and enhance your global trade operations with our cutting-edge, user-friendly website.",
     image:Rj3,
       
     tags: [
@@ -523,11 +539,32 @@ export const projects = [
       "CSS",
       "HTML",
       "ReactJs",
-      "Firebase"
+      "Email js",
+      "Tailwind CSS"
     ],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/MK-Traders-React-Js",
     webapp: "https://mktraders.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "The News",
+    //date: "15th July 2021 - 20th July 2021",
+    description:
+      "Stay informed with our responsive ReactJS news app, powered by a reliable news API. Designed for all devices, our platform categorizes news seamlessly, allowing users to explore the latest headlines and in-depth articles effortlessly. With a clean interface and intuitive navigation, accessing your preferred news categories is straightforward, ensuring you never miss out on important updates. Experience fast, dynamic news delivery tailored to your interests with our modern, user-friendly news app.",
+    image:Rj4,
+      
+    tags: [
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "ReactJs",
+      "Email js",
+      "Tailwind CSS"
+    ],
+    category: "ReactJs",
+    github: "https://github.com/mkabdulazees56/newsApp-React",
+   // webapp: "https://mktraders.netlify.app/",
   },
 
   {
