@@ -36,6 +36,8 @@ import Js5 from "../images/js5.png";
 import Js6 from "../images/js6.png";
 import Js7 from "../images/js7.png";
 import Rj1 from "../images/rj1.png";
+import Rj2 from "../images/rj2.png";
+import Rj3 from "../images/rj3.png";
 
 
 
@@ -469,27 +471,9 @@ export const projects = [
     github: "https://github.com/mkabdulazees56/Vanilla-JS-Projects",
     webapp: "https://github.com/mkabdulazees56/Vanilla-JS-Projects",
   },
+                                          //React Projects
   {
     id: 11,
-    title: "Homyz",
-    //date: "15th July 2021 - 20th July 2021",
-    description:
-      "Discover your dream home with our responsive ReactJS real estate website. Designed to provide a seamless browsing experience across all devices, our platform offers intuitive navigation and stunning visuals that showcase properties in their best light. Whether you're buying, selling, or renting, our website ensures easy access to detailed property listings, neighborhood insights, and personalized search options. With a user-friendly interface and robust performance, finding the perfect property is simpler than ever. Explore our ReactJS real estate website and embark on your next real estate journey with confidence.",
-    image:Rj1,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "ReactJs",
-      "Firebase"
-    ],
-    category: "ReactJs",
-    github: "https://github.com/mkabdulazees56/realStateWebsite-ReactJs",
-    webapp: "https://realstatereact.pages.dev/",
-  },
-  {
-    id: 12,
     title: "Homyz",
     //date: "15th July 2021 - 20th July 2021",
     description:
@@ -512,8 +496,8 @@ export const projects = [
     title: "HooBank",
     //date: "15th July 2021 - 20th July 2021",
     description:
-      "Discover your dream home with our responsive ReactJS real estate website. Designed to provide a seamless browsing experience across all devices, our platform offers intuitive navigation and stunning visuals that showcase properties in their best light. Whether you're buying, selling, or renting, our website ensures easy access to detailed property listings, neighborhood insights, and personalized search options. With a user-friendly interface and robust performance, finding the perfect property is simpler than ever. Explore our ReactJS real estate website and embark on your next real estate journey with confidence.",
-    image:Rj1,
+      "Experience seamless banking with our responsive ReactJS website, designed to cater to all your financial needs across any device. Our platform offers a user-friendly interface, ensuring effortless navigation through a comprehensive range of banking services. From secure transactions to personalized account management, our website combines functionality with an elegant design. Stay connected with real-time updates and insights, making your banking experience more efficient and enjoyable. Trust our ReactJS solution to provide a modern and responsive banking experience for everyone.",
+    image:Rj2,
       
     tags: [
       "JavaScript",
@@ -523,8 +507,27 @@ export const projects = [
       "Firebase"
     ],
     category: "ReactJs",
-    github: "https://github.com/mkabdulazees56/realStateWebsite-ReactJs",
-    webapp: "https://realstatereact.pages.dev/",
+    github: "https://github.com/mkabdulazees56/hoobank-ReactJs",
+    webapp: "https://hoobank-reactjs.pages.dev/",
+  },
+  {
+    id: 13,
+    title: "MK Traders",
+    //date: "15th July 2021 - 20th July 2021",
+    description:
+      "Discover your dream home with our responsive ReactJS real estate website. Designed to provide a seamless browsing experience across all devices, our platform offers intuitive navigation and stunning visuals that showcase properties in their best light. Whether you're buying, selling, or renting, our website ensures easy access to detailed property listings, neighborhood insights, and personalized search options. With a user-friendly interface and robust performance, finding the perfect property is simpler than ever. Explore our ReactJS real estate website and embark on your next real estate journey with confidence.",
+    image:Rj3,
+      
+    tags: [
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "ReactJs",
+      "Firebase"
+    ],
+    category: "ReactJs",
+    github: "https://github.com/mkabdulazees56/MK-Traders-React-Js",
+    webapp: "https://mktraders.netlify.app/",
   },
 
   {
