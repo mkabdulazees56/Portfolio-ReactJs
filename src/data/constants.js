@@ -42,6 +42,7 @@ import Rj2 from "../images/rj2.png";
 import Rj3 from "../images/rj3.png";
 import Rj4 from "../images/rj4.png";
 
+import Mn1 from "../images/mn1.png";
 
 
 // Personsl Bio
@@ -559,40 +560,85 @@ export const projects = [
       "CSS",
       "HTML",
       "ReactJs",
-      "Email js",
-      "Tailwind CSS"
+      "News Api"
+      
     ],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/newsApp-React",
-   // webapp: "https://mktraders.netlify.app/",
+    webapp: "https://github.com/mkabdulazees56/newsApp-React",
+  },
+  {
+    id: 16,
+    title: "Book Shelf",
+    //date: "15th July 2021 - 20th July 2021",
+    description:
+      "Bookshelf is a modern web application designed for book enthusiasts to effortlessly organize and manage their personal libraries. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled using Tailwind CSS, Bookshelf offers a seamless and visually appealing user experience. Users can catalog books by entering details like title, author, and genre, and can quickly locate any book using powerful search and filter functionalities. With features such as tracking reading status, sharing reviews and ratings, and a responsive design for consistent use across devices, Bookshelf is the perfect tool to enhance and streamline your reading experience.",
+    image:Mn1,
+      
+    tags: [
+      "JavaScript",
+      "ReactJs",
+      "Email js",
+      "Tailwind CSS",
+      "Daisy UI",
+      "MongoDB",
+      "NodeJS",
+      "ExpressJS",
+    ],
+    category: "Mern",
+    github: "https://github.com/mkabdulazees56/bookStore",
+    webapp: "https://github.com/mkabdulazees56/bookStore",
   },
 
   {
-    id: 11,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    id: 16,
+    title: "Book Shelf",
+    //date: "15th July 2021 - 20th July 2021",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
+      "Bookshelf is a modern web application designed for book enthusiasts to effortlessly organize and manage their personal libraries. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled using Tailwind CSS, Bookshelf offers a seamless and visually appealing user experience. Users can catalog books by entering details like title, author, and genre, and can quickly locate any book using powerful search and filter functionalities. With features such as tracking reading status, sharing reviews and ratings, and a responsive design for consistent use across devices, Bookshelf is the perfect tool to enhance and streamline your reading experience.",
+    image:Mn1,
+      
+    tags: [
+      "JavaScript",
+      "ReactJs",
+      "Email js",
+      "Tailwind CSS",
+      "Daisy UI",
+      "MongoDB",
+      "NodeJS",
+      "ExpressJS",
     ],
+    category: "Flutter",
+    github: "https://github.com/mkabdulazees56/bookStore",
+    webapp: "https://github.com/mkabdulazees56/bookStore",
   },
+
+  // {
+  //   id: 11,
+  //   title: "Podstream",
+  //   date: "Apr 2023 - May 2023",
+  //   description:
+  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+  //   category: "web app",
+  //   github: "https://github.com/rishavchanda/Podstream",
+  //   webapp: "https://podstream.netlify.app/",
+  //   member: [
+  //     {
+  //       name: "Rishav Chanda",
+  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+  //       github: "https://github.com/rishavchanda/",
+  //     },
+  //     {
+  //       name: "Upasana Chaudhuri",
+  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+  //       github: "https://github.com/upasana0710",
+  //     },
+  //   ],
+  // },
   
 ];
