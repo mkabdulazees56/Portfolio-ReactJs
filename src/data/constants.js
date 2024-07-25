@@ -21,6 +21,7 @@ import Prodigi from "../images/prodigi.jpeg";
 import Eyesome from "../images/eyesome.jpeg";
 import EysomeExp from "../images/eyesomeExp.png";
 import ProdigiExp from "../images/prodigiExp.png";
+import XploritExp from "../images/Xplorit Certification.jpeg";
 
 //project Image Imports
 
@@ -43,8 +44,11 @@ import Rj3 from "../images/rj3.png";
 import Rj4 from "../images/rj4.png";
 
 import Mn1 from "../images/mn1.png";
+import Mn2 from "../images/mn2.png";
+import Mn3 from "../images/w2p.png";
 
 
+import Fl1 from "../images/Xp A4.png";
 // Personsl Bio
 export const Bio = {
   name: "Abdul Azees",
@@ -207,7 +211,7 @@ export const skills = [
   },
 ];
 
-                                            //Experience
+//Experience
 
 export const experiences = [
   {
@@ -235,10 +239,27 @@ export const experiences = [
     desc: "I developed several JavaScript projects, including a Weather App that fetches real-time weather data using an API, a Tic-Tac-Toe Game with interactive gameplay and reset functionality, a Stop-Watch App with precise time tracking, and a personal Portfolio Website showcasing my projects and skills with a responsive and user-friendly design.",
     skills: ["ReactJS", "Material UI", "HTML", "CSS", "JavaScript"],
     doc: ProdigiExp,
-  }
+  },
+  {
+    id: 1,
+    img: NTUlogo,
+    role: "Secured Third Position in 2024-FYP Display",
+    company: "Computer Science Depatment, Nationel Textile University",
+    date: "Jul 2024",
+    desc: "The Xplorit-Rent With Ease App is an innovative vehicle rental and lending platform that revolutionizes the rental market by addressing travelers' challenges in finding affordable and conveniently located rental vehicles and providing vehicle owners with a streamlined listing platform. It consolidates various rental services into a single, user-friendly mobile application, featuring an intuitive interface, secure user authentication, and real-time data updates. Leveraging advanced technologies like Flutter for front-end development, Firebase for robust backend capabilities, and the Google Maps API for accurate location-based services, Xplorit ensures a seamless user experience. Renters can browse diverse vehicle options, view detailed listings, and book vehicles easily, while vehicle owners benefit from a dedicated dashboard for managing listings and interactions.The app includes a secure messaging system, user reviews, and ratings to maintain transparency and trust, setting a new standard in the vehicle rental market through its comprehensive solution, transparent information, secure transactions, and user-friendly design",
+    skills: [
+      "Flutter",
+      "ReactJS",
+      "Firebase",
+      "Dart",
+      "Google Map API",
+      "FireStore",
+    ],
+    doc: XploritExp,
+  },
 ];
 
-                                                  //Education
+//Education
 
 export const education = [
   {
@@ -246,8 +267,8 @@ export const education = [
     img: NTUlogo,
     school: "National Textile University,Faisalabad,Pakistan",
     date: "Oct 2020 - June 2024",
-    grade: "3.41 CGPA",
-    desc: "I'm currently pursuing a Bachelor's degree in Software Engineering at National Textile University, where I've completed seven semesters with a CGPA of 3.41. My coursework includes Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. I'm also an active member of the NTU Community Service Society, reflecting my commitment to both academic excellence and community engagement.",
+    grade: "3.38 CGPA",
+    desc: "I'm currently pursuing a Bachelor's degree in Software Engineering at National Textile University, where I've completed seven semesters with a CGPA of 3.38. My coursework includes Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. I'm also an active member of the NTU Community Service Society, reflecting my commitment to both academic excellence and community engagement.",
     degree: "Bachelor of Science - BSc, Software Engineering",
   },
   {
@@ -269,7 +290,7 @@ export const education = [
     degree: "Ordinary Level (O/L)",
   },
 ];
-                                        //Project Detalis
+//Project Detalis
 
 export const projects = [
   {
@@ -278,15 +299,15 @@ export const projects = [
     date: "15th June 2021 - 20th June 2021",
     description:
       "I developed a WordPress website for a small business, focusing on enhancing online presence and customer engagement. The site features a clean, modern design with user-friendly navigation and is fully responsive for optimal viewing on all devices. Key elements include SEO optimization to improve search visibility, an integrated blog for content updates, and optional e-commerce capabilities for online sales. This project successfully supports the business by attracting more customers and providing a professional digital footprint.",
-    image:Wp1,
-      
+    image: Wp1,
+
     tags: [
       "Phlox theme",
       "Elementor Pro",
       "JavaScript",
       "CSS",
       "SEO",
-      "WooCommerce Plugin"
+      "WooCommerce Plugin",
     ],
     category: "WordPress",
     github: "https://github.com/mkabdulazees56/WordPress-Phlox-Website",
@@ -298,15 +319,15 @@ export const projects = [
     date: "15th July 2021 - 20th July 2021",
     description:
       "I developed an e-commerce WordPress website for selling clothing, shoes, and bags, designed to enhance user experience and drive sales. The site features a stylish, responsive design optimized for all devices, ensuring seamless navigation and a smooth shopping experience. Key functionalities include an integrated shopping cart, secure payment gateways, product filters, and SEO optimization to improve visibility. This project effectively supports the business by providing a professional platform for showcasing products and engaging with customers online.",
-    image:Wp2,
-      
+    image: Wp2,
+
     tags: [
       "Woostify theme",
       "Elementor Pro",
       "JavaScript",
       "CSS",
       "SEO",
-      "WooCommerce Plugin"
+      "WooCommerce Plugin",
     ],
     category: "WordPress",
     github: "https://github.com/mkabdulazees56/WordPress-eCom-Website",
@@ -318,8 +339,8 @@ export const projects = [
     date: "21st July 2021 - 30th July 2021",
     description:
       "Learning Management System (LMS) website using WordPress, Elementor, and the Tutor plugin. Similar to Udemy, this website offers a wide variety of courses for users to enroll in, as well as a platform for teachers to create and upload their own courses.One of the main features of this LMS website is the Tutor plugin, which provides a comprehensive set of tools and functionalities to manage the courses and users. It enables teachers to easily create and structure their courses, add multimedia content, and set quizzes and assignments. Additionally, students can enroll in courses, track their progress, and communicate with their instructors.",
-    image:Wp3,
-      
+    image: Wp3,
+
     tags: [
       "Woostify theme",
       "Elementor Pro",
@@ -327,7 +348,7 @@ export const projects = [
       "CSS",
       "SEO",
       "WooCommerce Plugin",
-      "Tutor plugin"
+      "Tutor plugin",
     ],
     category: "WordPress",
     github: "https://github.com/mkabdulazees56/WordPress-LMS-Website",
@@ -339,15 +360,9 @@ export const projects = [
     date: "03rd August 2021 - 10th August 2021",
     description:
       "The portfolio website I built using WordPress and Elementor is a powerful platform that allows users to showcase their projects and highlight their skills to potential employers or clients. With a sleek and modern design, the website is both user-friendly and visually appealing.Through the use of Elementor, I was able to create a dynamic page layout that is fully customizable and responsive across all devices. Users can easily create and customize their own profiles, add their projects, and categorize them for easy navigation. The website also features a powerful search function that enables users to filter projects by category, keyword, or project type.",
-    image:Wp4,
-      
-    tags: [
-      "OceanWp Theme",
-      "Elementor Pro",
-      "JavaScript",
-      "CSS",
-      "SEO"
-    ],
+    image: Wp4,
+
+    tags: ["OceanWp Theme", "Elementor Pro", "JavaScript", "CSS", "SEO"],
     category: "WordPress",
     github: "https://github.com/mkabdulazees56/WordPress-Portfolio-Website",
     webapp: "https://portfolioabdulazees.netlify.app/",
@@ -358,13 +373,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "The website I built is a fun and creative platform that generates random memes and quotes using JavaScript, HTML, and CSS. Users can click a button to generate a random meme or quote. The site has a simple and user-friendly interface, with an intuitive design that allows users to quickly generate and share their favorite memes and quotes on social media. The site is built to be responsive and mobile-friendly, making it accessible to users on a variety of devices. With its playful and interactive features, this website is sure to provide hours of entertainment and laughter for users of all ages.",
-    image:Js1,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js1,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/Random-meme-website",
     webapp: "https://portfolioabdulazees.netlify.app/",
@@ -375,13 +386,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "The website I built is a professional and modern website designed for a university, featuring a user-friendly interface and easy navigation. The website includes a HOME page that provides an overview of the university and its programs, an ABOUT page that describes the university's history, mission, and values, a COURSE page where students can explore the different courses offered, a BLOG page where news and events related to the university are shared, and a CONTACT page that allows visitors to get in touch with the university.",
-    image:Js2,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js2,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/Big-Unviversity-Website",
     webapp: "https://mkabdulazees56.github.io/Big-Unviversity-Website/",
@@ -392,13 +399,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "The Spotify clone is a music streaming website that was developed using JavaScript, HTML, and CSS. With a sleek and modern design, this clone offers users an experience similar to that of the original Spotify website.",
-    image:Js3,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js3,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/Spotify-Clone",
     webapp: "https://mkabdulazees56.github.io/Spotify-Clone/",
@@ -409,13 +412,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Weather app leverages a powerful weather API to provide real-time and forecasted weather information with accuracy and reliability. Whether you're planning your day or staying updated on changing weather conditions, our app offers detailed insights such as temperature, humidity, wind speed, and precipitation chances. Designed for simplicity and usability, it ensures that users can easily access essential weather data wherever they are. Stay informed and prepared with our intuitive weather app.",
-    image:Js4,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js4,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/Weather-App/",
     webapp: "https://mkabdulazees56.github.io/Weather-App/",
@@ -426,13 +425,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "MK Traders, based in Sri Lanka since 2020, specializes in global trade, with a focus on importing and exporting high-quality onions and potatoes. We take pride in our commitment to excellence and look forward to continued success in the international marketplace.",
-    image:Js5,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js5,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/MK-Traders-JS-/",
     webapp: "https://mkabdulazees56.github.io/MK-Traders-JS-/",
@@ -443,13 +438,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "These games are fun and engaging projects that can help developers enhance their skills in game development and JavaScript programming. They can also be customized and expanded upon to create more complex games and applications.",
-    image:Js6,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js6,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/VannilaJS-Game-Projects",
     webapp: "https://github.com/mkabdulazees56/VannilaJS-Game-Projects",
@@ -460,13 +451,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "These projects are small-scale web applications created using vanilla JavaScript, HTML, and CSS. They are designed to teach and reinforce fundamental concepts in web development, including manipulating the DOM, event handling, data structures, and basic styling.Each project has a specific focus, such as creating interactive menus, displaying reviews, or managing a grocery list, and serves as a practical exercise for developers who want to enhance their JavaScript skills.",
-    image:Js7,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js7,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/Vanilla-JS-Projects",
     webapp: "https://github.com/mkabdulazees56/Vanilla-JS-Projects",
@@ -477,33 +464,23 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Showcase your work with our sleek and responsive JavaScript portfolio website. Designed to highlight your skills and projects across all devices, this platform offers an engaging user experience with smooth navigation and interactive features. Whether on desktop or mobile, visitors can explore your portfolio with ease, appreciating the aesthetics and functionality that set your work apart. Elevate your professional presence with a modern and dynamic portfolio that captures your unique talents.",
-    image:Js8,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-    ],
+    image: Js8,
+
+    tags: ["JavaScript", "CSS", "HTML"],
     category: "JavaScript",
     github: "https://github.com/mkabdulazees56/My-Portfoloio-Website",
     webapp: "https://mkabdulazees.netlify.app/",
   },
-                                          //React Projects
+  //React Projects
   {
     id: 11,
     title: "Homyz",
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Discover your dream home with our responsive ReactJS real estate website. Designed to provide a seamless browsing experience across all devices, our platform offers intuitive navigation and stunning visuals that showcase properties in their best light. Whether you're buying, selling, or renting, our website ensures easy access to detailed property listings, neighborhood insights, and personalized search options. With a user-friendly interface and robust performance, finding the perfect property is simpler than ever. Explore our ReactJS real estate website and embark on your next real estate journey with confidence.",
-    image:Rj1,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "ReactJs",
-      "Firebase"
-    ],
+    image: Rj1,
+
+    tags: ["JavaScript", "CSS", "HTML", "ReactJs", "Firebase"],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/realStateWebsite-ReactJs",
     webapp: "https://realstatereact.pages.dev/",
@@ -514,15 +491,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Experience seamless banking with our responsive ReactJS website, designed to cater to all your financial needs across any device. Our platform offers a user-friendly interface, ensuring effortless navigation through a comprehensive range of banking services. From secure transactions to personalized account management, our website combines functionality with an elegant design. Stay connected with real-time updates and insights, making your banking experience more efficient and enjoyable. Trust our ReactJS solution to provide a modern and responsive banking experience for everyone.",
-    image:Rj2,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "ReactJs",
-      "Tailwind CSS"
-    ],
+    image: Rj2,
+
+    tags: ["JavaScript", "CSS", "HTML", "ReactJs", "Tailwind CSS"],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/hoobank-ReactJs",
     webapp: "https://hoobank-reactjs.pages.dev/",
@@ -533,16 +504,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Explore our ReactJS website designed for an import/export company, optimized for a seamless experience across all devices. Our responsive platform provides easy access to comprehensive services, showcasing product catalogs and logistical solutions. With an intuitive interface, users can navigate effortlessly through offerings, ensuring a smooth experience whether on desktop or mobile. Stay informed with real-time updates and enhance your global trade operations with our cutting-edge, user-friendly website.",
-    image:Rj3,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "ReactJs",
-      "Email js",
-      "Tailwind CSS"
-    ],
+    image: Rj3,
+
+    tags: ["JavaScript", "CSS", "HTML", "ReactJs", "Email js", "Tailwind CSS"],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/MK-Traders-React-Js",
     webapp: "https://mktraders.netlify.app/",
@@ -553,16 +517,9 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Stay informed with our responsive ReactJS news app, powered by a reliable news API. Designed for all devices, our platform categorizes news seamlessly, allowing users to explore the latest headlines and in-depth articles effortlessly. With a clean interface and intuitive navigation, accessing your preferred news categories is straightforward, ensuring you never miss out on important updates. Experience fast, dynamic news delivery tailored to your interests with our modern, user-friendly news app.",
-    image:Rj4,
-      
-    tags: [
-      "JavaScript",
-      "CSS",
-      "HTML",
-      "ReactJs",
-      "News Api"
-      
-    ],
+    image: Rj4,
+
+    tags: ["JavaScript", "CSS", "HTML", "ReactJs", "News Api"],
     category: "ReactJs",
     github: "https://github.com/mkabdulazees56/newsApp-React",
     webapp: "https://github.com/mkabdulazees56/newsApp-React",
@@ -573,8 +530,8 @@ export const projects = [
     //date: "15th July 2021 - 20th July 2021",
     description:
       "Bookshelf is a modern web application designed for book enthusiasts to effortlessly organize and manage their personal libraries. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled using Tailwind CSS, Bookshelf offers a seamless and visually appealing user experience. Users can catalog books by entering details like title, author, and genre, and can quickly locate any book using powerful search and filter functionalities. With features such as tracking reading status, sharing reviews and ratings, and a responsive design for consistent use across devices, Bookshelf is the perfect tool to enhance and streamline your reading experience.",
-    image:Mn1,
-      
+    image: Mn1,
+
     tags: [
       "JavaScript",
       "ReactJs",
@@ -589,29 +546,93 @@ export const projects = [
     github: "https://github.com/mkabdulazees56/bookStore",
     webapp: "https://github.com/mkabdulazees56/bookStore",
   },
-
   {
-    id: 16,
-    title: "Book Shelf",
+    id: 17,
+    title: "MERN Athentication",
     //date: "15th July 2021 - 20th July 2021",
     description:
-      "Bookshelf is a modern web application designed for book enthusiasts to effortlessly organize and manage their personal libraries. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled using Tailwind CSS, Bookshelf offers a seamless and visually appealing user experience. Users can catalog books by entering details like title, author, and genre, and can quickly locate any book using powerful search and filter functionalities. With features such as tracking reading status, sharing reviews and ratings, and a responsive design for consistent use across devices, Bookshelf is the perfect tool to enhance and streamline your reading experience.",
-    image:Mn1,
-      
+      "This is a full-stack web application built with the MERN (MongoDB,Express, React, Node.js) stack. It includes authentication features thatallow users to sign up, log in, and log out, and provides access to protected routes only for authenticated users.The front-end of the application is built with React and uses React Router for client-side routing. The back-end is built with Node.js and Express, and uses MongoDB as the database. Authentication is implemented using JSON Web Tokens (JWT) This application is intended as a starting point for building full-stack web applications with authentication using the MERN stack.",
+    image: Mn2,
+
     tags: [
       "JavaScript",
       "ReactJs",
-      "Email js",
+      "Redux",
       "Tailwind CSS",
-      "Daisy UI",
+      "JWT",
       "MongoDB",
       "NodeJS",
       "ExpressJS",
     ],
-    category: "Flutter",
-    github: "https://github.com/mkabdulazees56/bookStore",
-    webapp: "https://github.com/mkabdulazees56/bookStore",
+    category: "Mern",
+    github: "https://github.com/mkabdulazees56/Mern_Auth",
+    webapp: "https://github.com/mkabdulazees56/Mern_Auth",
   },
+
+  {
+    id: 18,
+    title: "Word 2 PDF",
+    //date: "15th July 2021 - 20th July 2021",
+    description:
+      "The Word to PDF Converter is a robust web application developed with the MERN stack (MongoDB, Express.js, React.js, Node.js) that efficiently transforms Word documents (.docx) into high-quality PDF files. This user-friendly tool offers a simple upload process, rapid conversion speeds, and ensures the security and privacy of your documents by automatically deleting them after conversion. With its clean and modern interface, the Word to PDF Converter provides a seamless and reliable solution for all your document conversion needs.",
+    image: Mn3,
+
+    tags: [
+      "JavaScript",
+      "ReactJs",
+      "Tailwind CSS",
+      "NodeJS",
+      "ExpressJS",
+    ],
+    category: "Mern",
+    github: "https://github.com/mkabdulazees56/Word2PDF",
+    webapp: "https://github.com/mkabdulazees56/Word2PDF",
+  },
+
+  {
+    id: 19,
+    title: "Xplorit - Rent Lent Earn",
+    //date: "15th July 2021 - 20th July 2021",
+    description:
+      "The Xplorit-Rent With Ease App revolutionizes the vehicle rental market by offering a seamless, user-friendly platform that addresses travelers' challenges in finding affordable and conveniently located rental vehicles while providing vehicle owners with an efficient listing service. Utilizing advanced technologies such as Flutter for the front-end, Firebase for the backend, and Google Maps API for precise location services, the app consolidates various rental services into one intuitive mobile application. It features secure user authentication, real-time data updates, a diverse vehicle browsing experience, detailed listings, easy booking, a dedicated owner dashboard for listing management, a secure messaging system, and user reviews and ratings to ensure transparency and trust, setting a new standard in the vehicle rental industry",
+    image: Fl1,
+
+    tags: [
+      "Flutter",
+      "ReactJs",
+      "Firebase",
+      "Google Map API",
+      "Dart",
+      "FireStore",
+    ],
+    category: "Flutter",
+    github: "https://github.com/mkabdulazees56/Xplorit-App",
+    webapp: "https://github.com/mkabdulazees56/Xplorit-App",
+  },
+  
+
+  // {
+  //   id: 16,
+  //   title: "Book Shelf",
+  //   //date: "15th July 2021 - 20th July 2021",
+  //   description:
+  //     "Bookshelf is a modern web application designed for book enthusiasts to effortlessly organize and manage their personal libraries. Built with the MERN stack (MongoDB, Express.js, React, Node.js) and styled using Tailwind CSS, Bookshelf offers a seamless and visually appealing user experience. Users can catalog books by entering details like title, author, and genre, and can quickly locate any book using powerful search and filter functionalities. With features such as tracking reading status, sharing reviews and ratings, and a responsive design for consistent use across devices, Bookshelf is the perfect tool to enhance and streamline your reading experience.",
+  //   image:Mn1,
+
+  //   tags: [
+  //     "JavaScript",
+  //     "ReactJs",
+  //     "Email js",
+  //     "Tailwind CSS",
+  //     "Daisy UI",
+  //     "MongoDB",
+  //     "NodeJS",
+  //     "ExpressJS",
+  //   ],
+  //   category: "Flutter",
+  //   github: "https://github.com/mkabdulazees56/bookStore",
+  //   webapp: "https://github.com/mkabdulazees56/bookStore",
+  // },
 
   // {
   //   id: 11,
@@ -640,5 +661,4 @@ export const projects = [
   //     },
   //   ],
   // },
-  
 ];

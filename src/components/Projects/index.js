@@ -40,14 +40,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="WordPress"
               onClick={() => setToggle("WordPress")}
             >
-              WORDPRESS'S
+              WORD PRESS'S
             </ToggleButton>
           ) : (
             <ToggleButton
               value="WordPress"
               onClick={() => setToggle("WordPress")}
             >
-              WORDPRESS'S
+              WORD PRESS'S
             </ToggleButton>
           )}
           <Divider />
@@ -57,14 +57,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="JavaScript"
               onClick={() => setToggle("JavaScript")}
             >
-              JAVASCRIPT'S
+              JAVA SCRIPT'S
             </ToggleButton>
           ) : (
             <ToggleButton
               value="JavaScript"
               onClick={() => setToggle("JavaScript")}
             >
-              JAVASCRIPT'S
+              JAVA SCRIPT'S
             </ToggleButton>
           )}
           <Divider />
@@ -127,3 +127,4 @@ const Projects = ({ openModal, setOpenModal }) => {
 };
 
 export default Projects;
+
