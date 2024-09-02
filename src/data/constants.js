@@ -57,7 +57,7 @@ export const Bio = {
     "I'm an enthusiastic and adaptable professional with a strong commitment to excellence. I thrive on learning and embrace challenges with a proactive approach. My dedication to delivering outstanding results, coupled with a positive outlook, empowers me to contribute effectively and achieve impactful outcomes.",
   github: "https://github.com/mkabdulazees56",
   resume:
-    "https://drive.google.com/file/d/1OfOsuZWhUoA18iSJoNX9PPgxk1osh_f3/view?usp=sharing",
+    "https://drive.google.com/file/d/1FsmJS9lv2gww0v0w4JhXJbSmiOPtD7pO/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mk-abdul-azees/",
   twitter: "https://twitter.com/MkAbdulAzees56/",
   insta:
